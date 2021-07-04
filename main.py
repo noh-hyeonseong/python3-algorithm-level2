@@ -23,9 +23,9 @@ if __name__ == '__main__':
     # 기능개발.solution(progresses, speeds)
 
     # 프로그래머스 레벨 2 124 나라의 숫자
-    # n = 13
-    # 나라의숫자_F.solution(n)
+    n = 36
+    나라의숫자_F.solution(n)
 
     # 프로그래머스 레벨 2 오픈채팅방
-    record = ["Enter uid1234 Muzi", "Enter uid4567 Prodo","Leave uid1234","Enter uid1234 Prodo","Change uid4567 Ryan"]
-    오픈채팅방.solution(record)
+    # record = ["Enter uid1234 Muzi", "Enter uid4567 Prodo","Leave uid1234","Enter uid1234 Prodo","Change uid4567 Ryan"]
+    # 오픈채팅방.solution(record)

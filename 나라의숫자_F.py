@@ -1,10 +1,20 @@
 def solution(n):
     """
-    21-07-04
-    시간 초과를 못잡아 답을 봐버림
+    진법문제는 진법문제로 접근하자.
     """
-    print('123'[2])
-
+    answer = ''
+    while True:
+        k,r = divmod(n,3)
+        if r == 0:
+            answer = '4' + answer
+            n = k - 1
+        else:
+            answer = str(r) + answer
+            n = k
+        if n == 0:
+            break
+    print(answer)
+    return answer
     #기존 시간초과 코드
     # answer = ['1']
     # for i in range(1,n):
