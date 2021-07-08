@@ -1,6 +1,10 @@
 import heapq
 
 def solution(scoville, K):
+    """
+    heap 자료구조 사용문제.
+    최소값을 찾아낼 때 빠름
+    """
     count = 0
     heapq.heapify(scoville)
     while True:
