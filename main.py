@@ -7,7 +7,7 @@
 #
 import 기능개발
 import 나라의숫자_F
-import 더맵게
+import 더맵게_F
 import 오픈채팅방
 import 짝지어제거하기
 
@@ -34,4 +34,4 @@ if __name__ == '__main__':
     # 프로그래머스 레벨 2 더 맵게
     scoville = [1, 2, 3, 9, 10, 12]
     K = 7
-    더맵게.solution(scoville, K)
+    더맵게_F.solution(scoville, K)
