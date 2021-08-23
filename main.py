@@ -9,6 +9,7 @@ import 기능개발
 import 나라의숫자_F
 import 더맵게_F
 import 멀쩡한사각형_F
+import 문자열압축
 import 오픈채팅방
 import 짝지어제거하기
 import 타겟넘버
@@ -47,3 +48,7 @@ if __name__ == '__main__':
     # numbers = [1, 1, 1, 1, 1]
     # target = 3
     # 타겟넘버.solution(numbers, target)
+
+    # 프로그래머스 레벨 2 문자열 압축
+    s = "abcabcabcabcdededededede"
+    문자열압축.solution(s)
