@@ -15,18 +15,15 @@ def solution(s):
             else:
                 if tempPatern == s[j:j+i]:
                     paternDick[s[j:j+i]] += 1
-                elif len(tempPatern) > len(s[j:j+i]):
-                    tempStr = tempStr + tempPatern + s[j:j+i]
-                    break
                 else:
-                    if paternDick[tempPatern] > 1 or j == len(s) - 1:
+                    if paternDick[tempPatern] > 1:
                         tempStr = tempStr + str(paternDick[tempPatern]) + tempPatern
                     elif paternDick[tempPatern] == 1:
                         tempStr = tempStr + tempPatern
                     tempPatern = s[j:j+i]
                     paternDick[tempPatern] = 1
             if j + i >= len(s):
-                if paternDick[tempPatern] > 1 or j == len(s) - 1:
+                if paternDick[tempPatern] > 1:
                     tempStr = tempStr + str(paternDick[tempPatern]) + tempPatern
                 elif paternDick[tempPatern] == 1:
                     tempStr = tempStr + tempPatern
