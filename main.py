@@ -11,6 +11,7 @@ import 더맵게_F
 import 멀쩡한사각형_F
 import 오픈채팅방
 import 짝지어제거하기
+import 타겟넘버
 
 if __name__ == '__main__':
     print("==========main start==========")
@@ -38,6 +39,11 @@ if __name__ == '__main__':
     # 더맵게_F.solution(scoville, K)
 
     # 프로그래머스 레벨 2 멀쩡한 사각형
-    W = 3
-    H = 11
-    멀쩡한사각형_F.solution(W, H)
+    # W = 3
+    # H = 11
+    # 멀쩡한사각형_F.solution(W, H)
+
+    # 프로그래머스 레벨 2 타겟 넘버
+    # numbers = [1, 1, 1, 1, 1]
+    # target = 3
+    # 타겟넘버.solution(numbers, target)
