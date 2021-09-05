@@ -1,5 +1,4 @@
 def solution(s):
-    answer = 0
     tempPatern = ""
     paternDick = {}
     tempStr = ""
@@ -27,9 +26,7 @@ def solution(s):
                     tempStr = tempStr + str(paternDick[tempPatern]) + tempPatern
                 elif paternDick[tempPatern] == 1:
                     tempStr = tempStr + tempPatern
-        # print(str(i) + " : " + tempStr)
         if min > len(tempStr):
             min = len(tempStr)
     answer = min
-    # print(answer)
     return answer

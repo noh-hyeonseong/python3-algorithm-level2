@@ -13,6 +13,7 @@ import 문자열압축
 import 오픈채팅방
 import 짝지어제거하기
 import 타겟넘버
+import 행렬테두리회전하기_F
 
 if __name__ == '__main__':
     print("==========main start==========")
@@ -50,5 +51,11 @@ if __name__ == '__main__':
     # 타겟넘버.solution(numbers, target)
 
     # 프로그래머스 레벨 2 문자열 압축
-    s = "abcabcabcabcdededededede"
-    문자열압축.solution(s)
+    # s = "abcabcabcabcdededededede"
+    # 문자열압축.solution(s)
+
+    # 프로그래머스 레벨 2 ㅍ
+    rows = 6
+    columns = 6
+    queries = [[2,2,5,4],[3,3,6,6],[5,1,6,3]]
+    행렬테두리회전하기_F.solution(rows, columns, queries)

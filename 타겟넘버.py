@@ -1,5 +1,3 @@
-from collections import deque
-
 answer = 0
 tempNumbers = []
 tempTarget = 0
