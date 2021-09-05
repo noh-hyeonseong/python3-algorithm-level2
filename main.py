@@ -11,6 +11,7 @@ import 더맵게_F
 import 멀쩡한사각형_F
 import 문자열압축
 import 오픈채팅방
+import 전화번호목록
 import 짝지어제거하기
 import 타겟넘버
 import 행렬테두리회전하기_F
@@ -54,8 +55,12 @@ if __name__ == '__main__':
     # s = "abcabcabcabcdededededede"
     # 문자열압축.solution(s)
 
-    # 프로그래머스 레벨 2 ㅍ
-    rows = 6
-    columns = 6
-    queries = [[2,2,5,4],[3,3,6,6],[5,1,6,3]]
-    행렬테두리회전하기_F.solution(rows, columns, queries)
+    # 프로그래머스 레벨 2 행렬테두리회전하기
+    # rows = 6
+    # columns = 6
+    # queries = [[2,2,5,4],[3,3,6,6],[5,1,6,3]]
+    # 행렬테두리회전하기_F.solution(rows, columns, queries)
+
+    # 프로그래머스 레벨 2 전화번호 목록
+    phone_book = ["119", "97674223", "1195524421"]
+    전화번호목록.solution(phone_book)
