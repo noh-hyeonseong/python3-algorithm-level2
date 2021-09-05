@@ -5,16 +5,10 @@ def solution(phone_book):
     '''
 
     answer = True
-
+    phone_book.sort()
     for idx, phoneNum in enumerate(phone_book):
-        for leftNum in range(idx+1, len(phone_book)):
-            if len(phoneNum) > len(phone_book[leftNum]):
-                if phoneNum[:len(phone_book[leftNum])] == phone_book[leftNum]:
-                    answer = False
-                    break
-            elif len(phoneNum) < len(phone_book[leftNum]):
-                if phone_book[leftNum][:len(phoneNum)] == phoneNum:
-                    answer = False
-                    break
+        if idx < len(phone_book)-1 and len(phoneNum) < len(phone_book[idx+1]):
+            if phoneNum == phone_book[idx+1][:len(phoneNum)]:
+                answer = False
 
     return answer
