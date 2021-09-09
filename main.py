@@ -5,6 +5,7 @@
 # The function is expected to return a STRING_ARRAY.
 # The function accepts 2D_STRING_ARRAY arr as parameter.
 #
+import 가장큰수
 import 기능개발
 import 나라의숫자_F
 import 더맵게_F
@@ -67,6 +68,10 @@ if __name__ == '__main__':
     # 전화번호목록.solution(phone_book)
 
     # 프로그래머스 레벨 2 프린터터
-    priorities = [2, 1, 3, 2]
-    location = 2
-    프린터_F.solution(priorities, location)
+    # priorities = [2, 1, 3, 2]
+    # location = 2
+    # 프린터_F.solution(priorities, location)
+
+    # 프로그래머스 레벨 2 가장 큰 수
+    numbers = [6, 10, 2]
+    가장큰수.solution(numbers)
