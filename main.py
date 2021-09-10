@@ -11,6 +11,7 @@ import 나라의숫자_F
 import 더맵게_F
 import 멀쩡한사각형_F
 import 문자열압축
+import 소수찾기
 import 오픈채팅방
 import 전화번호목록
 import 짝지어제거하기
@@ -73,5 +74,9 @@ if __name__ == '__main__':
     # 프린터_F.solution(priorities, location)
 
     # 프로그래머스 레벨 2 가장 큰 수
-    numbers = [6, 10, 2]
-    가장큰수.solution(numbers)
+    # numbers = [6, 10, 2]
+    # 가장큰수.solution(numbers)
+
+    # 프로그래머스 레벨 2 소수 찾기
+    numbers = "011"
+    소수찾기.solution(numbers)
