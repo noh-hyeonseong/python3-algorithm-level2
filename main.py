@@ -13,6 +13,7 @@ import 멀쩡한사각형_F
 import 문자열압축
 import 소수찾기
 import 오픈채팅방
+import 위장
 import 전화번호목록
 import 짝지어제거하기
 import 타겟넘버
@@ -78,5 +79,13 @@ if __name__ == '__main__':
     # 가장큰수.solution(numbers)
 
     # 프로그래머스 레벨 2 소수 찾기
-    numbers = "011"
-    소수찾기.solution(numbers)
+    # numbers = "011"
+    # 소수찾기.solution(numbers)
+
+    # 프로그래머스 레벨 2 위장
+    clothes = [["yellowhat", "headgear"],
+               ["bluesunglasses", "eyewear"],
+               ["green_turban", "headgear"]]
+    # clothes = [["crow_mask", "face"],
+    #            ["blue_sunglasses", "face"]]
+    위장.solution(clothes)
