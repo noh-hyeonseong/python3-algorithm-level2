@@ -8,6 +8,7 @@
 import 가장큰수
 import 기능개발
 import 나라의숫자_F
+import 다리를지나는트럭
 import 더맵게_F
 import 멀쩡한사각형_F
 import 문자열압축
@@ -83,9 +84,17 @@ if __name__ == '__main__':
     # 소수찾기.solution(numbers)
 
     # 프로그래머스 레벨 2 위장
-    clothes = [["yellowhat", "headgear"],
-               ["bluesunglasses", "eyewear"],
-               ["green_turban", "headgear"]]
+    # clothes = [["yellowhat", "headgear"],
+    #            ["bluesunglasses", "eyewear"],
+    #            ["green_turban", "headgear"]]
     # clothes = [["crow_mask", "face"],
     #            ["blue_sunglasses", "face"]]
-    위장_F.solution(clothes)
+    # 위장_F.solution(clothes)
+
+    bridge_length = 2
+    weight = 10
+    truck_weights =	[7,4,5,6]
+    # bridge_length = 100
+    # weight = 100
+    # truck_weights =	[10]
+    다리를지나는트럭.solution(bridge_length, weight, truck_weights)
