@@ -5,6 +5,7 @@
 # The function is expected to return a STRING_ARRAY.
 # The function accepts 2D_STRING_ARRAY arr as parameter.
 #
+import hindex
 import 가장큰수
 import 기능개발
 import 나라의숫자_F
@@ -91,10 +92,10 @@ if __name__ == '__main__':
     #            ["blue_sunglasses", "face"]]
     # 위장_F.solution(clothes)
 
-    bridge_length = 2
-    weight = 10
-    truck_weights =	[7,4,5,6]
     # bridge_length = 100
     # weight = 100
     # truck_weights =	[10]
-    다리를지나는트럭.solution(bridge_length, weight, truck_weights)
+    # 다리를지나는트럭.solution(bridge_length, weight, truck_weights)
+
+    citations = [2,2]
+    hindex.solution(citations)
