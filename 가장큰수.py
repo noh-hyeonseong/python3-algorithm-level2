@@ -5,7 +5,6 @@
 def solution(numbers):
     strAry = []
     for i in numbers:
-        tempAry = []
         i = list(str(i))
         strAry.append(i)
     print(strAry)

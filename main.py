@@ -92,10 +92,12 @@ if __name__ == '__main__':
     #            ["blue_sunglasses", "face"]]
     # 위장_F.solution(clothes)
 
+    # 프로그래머스 레벨 2 다리를 지나는 트럭
     # bridge_length = 100
     # weight = 100
     # truck_weights =	[10]
     # 다리를지나는트럭.solution(bridge_length, weight, truck_weights)
 
-    citations = [2,2]
-    hindex.solution(citations)
+    # 프로그래머스 레벨 2 H-Index
+    # citations = [2,2]
+    # hindex.solution(citations)
