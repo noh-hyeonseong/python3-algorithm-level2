@@ -6,7 +6,7 @@
 # The function accepts 2D_STRING_ARRAY arr as parameter.
 #
 import hindex
-import 가장큰수
+import 가장큰수_F
 import 기능개발
 import 나라의숫자_F
 import 다리를지나는트럭
@@ -93,10 +93,10 @@ if __name__ == '__main__':
     # 위장_F.solution(clothes)
 
     # 프로그래머스 레벨 2 다리를 지나는 트럭
-    # bridge_length = 100
-    # weight = 100
-    # truck_weights =	[10]
-    # 다리를지나는트럭.solution(bridge_length, weight, truck_weights)
+    bridge_length = 2
+    weight = 13
+    truck_weights =	[7,4,5,6]
+    다리를지나는트럭.solution(bridge_length, weight, truck_weights)
 
     # 프로그래머스 레벨 2 H-Index
     # citations = [2,2]

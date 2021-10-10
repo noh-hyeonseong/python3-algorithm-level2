@@ -34,5 +34,4 @@ def solution(bridge_length, weight, truck_weights):
             nowTrucks.append(truckInfo)
             nowWeigth += tempWeigth
 
-    print(timetmp)
     return timetmp
